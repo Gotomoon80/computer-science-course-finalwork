@@ -1,0 +1,36 @@
+{
+  "app": {
+    "name": "学习助手",
+    "version": "1.0.0",
+    "author": "你的名字"
+  },
+  "pomodoro": {
+    "work_duration": 1500,
+    "break_duration": 300,
+    "long_break_duration": 900,
+    "sessions_before_long_break": 4
+  },
+  "time_sync": {
+    "auto_sync": true,
+    "sync_interval": 3600,
+    "ntp_servers": [
+      "time.windows.com",
+      "ntp.aliyun.com",
+      "cn.ntp.org.cn",
+      "pool.ntp.org"
+    ],
+    "timeout": 3
+  },
+  "appearance": {
+    "theme": "light",
+    "primary_color": "#4A90E2",
+    "secondary_color": "#50C9CE",
+    "accent_color": "#F5A623",
+    "background_color": "#F8F9FA",
+    "font_family": "Microsoft YaHei",
+    "font_size": 12
+  },
+  "database": {
+    "path": "data/study.db"
+  }
+}
