@@ -1,30 +1,43 @@
-# Python
+# Python编译文件
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
-env/
-venv/
-*.egg-info/
-dist/
+
+# 打包文件
 build/
+dist/
+*.egg-info/
 *.spec
 
-# IDE
+# IDE配置
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# 数据库
-*.db
-*.sqlite3
+# 虚拟环境
+venv/
+env/
+ENV/
 
-# 日志
-*.log
-data/logs/
-
-# OS
+# 系统文件
 .DS_Store
 Thumbs.db
+
+# Python安装包（不要上传）
+*.exe
+python-*.exe
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.bak
+*~
+
+# 数据库文件（如果有）
+*.db
+*.sqlite
+*.sqlite3
